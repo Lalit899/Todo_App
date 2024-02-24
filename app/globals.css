@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: aliceblue;
+}
+
+button {
+    transition: all ease-in-out 0.5s;
+}
+
+#del:hover {
+    background-color:rgb(182, 13, 47);
+}
+
+#cmpl:hover {
+    background-color:rgb(4, 132, 49);
+}
+
+#addbtn:hover {
+    background-color:rgb(144, 57, 225);
+}
